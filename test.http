@@ -1,0 +1,25 @@
+# POST  http://localhost:7071/api/SampleFuncMnj?action=edit
+# Content-Type: application/json
+# {
+#     "ID" : "85462",
+#     "name_of_audit" : "Sample Audit",
+#     "type_of_audit" : "Annual",
+#     "auditor" : "Mahesh",
+#     "audit_date" : "1988-05-15"
+# }
+
+//GET  http://localhost:7071/api/SampleFuncMnj
+
+POST http://localhost:7071/api/SampleFuncMnj
+Content-Type: application/json
+{
+    "Rule_ID" : "M12",
+    "Document_ID" : "FDR",
+    "Populate_Field" : "Obligiation To",
+    "Populate_Value" : "Manufacturer",
+    "Logical_Condition" : "WHERE",
+    "Check_Field" : "Requirement Text",
+    "Check_Value" : "Responsibility of Manufacturers"
+}
+###
+ 
